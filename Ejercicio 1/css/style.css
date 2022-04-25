@@ -1,0 +1,25 @@
+
+
+* {
+	margin: 0;
+}
+
+body {
+	padding-block: var(--padding-lg);
+}
+
+caption {
+	text-align: start;
+}
+table{
+	border-collapse: collapse; 
+	margin: auto; 
+	font-size: 0.9em; 
+	overflow: hidden; 
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 20px; 
+	height: 514px; 
+
+	width: 70%;
+}
+th, td{
+	border : 6px solid rgb(0, 0, 0);border-collapse:collapse;padding:10px;font-size:18px}

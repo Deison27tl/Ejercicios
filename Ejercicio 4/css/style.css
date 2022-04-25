@@ -1,0 +1,103 @@
+img {
+  width:50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 30px;
+  padding-top: 30px;
+
+}
+.card {
+  display: flex;
+  border-style: groove; 
+width: 300px;
+height: 120px;
+  
+}
+.art {
+
+  margin-top: 1%;
+  
+}
+
+h4 {
+  color: rgb(150, 149, 144);
+}
+h2{
+  color: blue;
+}
+.img-icon {
+  width: 50px;
+  height: 50px;
+}
+.card-user {
+  display: flex;
+  flex-direction: row;
+
+  width: 400px;
+}
+.button-verde {
+  color: #36ff1b;
+  border: 3px solid #41ff1b;
+  background: white;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+}
+.button-red {
+  color: #ff1b1b;
+  border: 3px solid #ff1b1b;
+  background: white;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+}
+.div-prin {
+  display: flex;
+}
+.menu {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  background-color: rgb(5, 238, 55);
+}
+
+.menu a {
+  font-size: 1.2rem;
+  font-family: Oswald;
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+
+  /*margin: auto; esto iria en vez de justify y align en el elemento padre */
+
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  font-size: 1.3rem;
+}
+p{
+  color: #36ff1b;
+}
+h3{
+  color: rgb(153, 148, 143);
+
+}
+article{
+
+  padding-right: 10%;
+  
+}

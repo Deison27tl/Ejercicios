@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&display=swap');
+body{
+	font-family: 'EB Garamond', serif;
+}
+main{
+	width:40px;
+	border:1px solid #ccc;
+	margin:20px auto;
+	display:flex;
+	justify-content:center;
+}
+
+.form-group{
+	display:flex;
+	flex-direction:column;
+}
+.conten{
+width: 20%;
+text-align: center;
+padding-left: 38%;
+}
+label{
+  color: red;
+}
+table{
+  table-layout: auto;
+}

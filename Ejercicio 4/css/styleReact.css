@@ -1,0 +1,46 @@
+body{
+    background: rgb(0, 0, 0);
+}
+img{
+   width: 20px;
+   height: 20px;
+}
+.print{
+    display: flex;
+    padding-left: 2%;
+  font-size: 20px;
+  
+}
+.temas{
+    padding-left: 3%;
+    width: 1500px;
+    padding-right: 3%;
+}
+h1{
+    color: greenyellow;
+}
+h2{
+   color: blue;
+}
+h5{
+    color: azure;
+}
+p{
+    color: green;
+}
+.vid{
+    padding-top: 5%;
+  
+}
+.cla{
+    width: 2000px;
+}
+.button-red {
+    color: #ff1b1b;
+    border: 20px solid #88ff00;
+    background: rgb(51, 253, 0);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+  }
