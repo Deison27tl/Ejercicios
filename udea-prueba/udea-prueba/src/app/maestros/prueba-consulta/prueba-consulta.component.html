@@ -1,0 +1,25 @@
+
+    
+    {{dato.cedula}}<br/>
+    {{dato.nombrePila}}<br/>
+
+    <div>
+            <table border="1">
+                <tr>
+                        <th><b>Cédula</b></th>
+                        <th><b>Nombre</b></th>
+                        <th><b>Apellido 1</b></th>
+                        <th><b>Apellido 2</b></th>
+                        <th><b>Sexo</b></th>
+                    </tr>
+                    
+                <tr *ngFor="let item of listaDatos">
+                    <td>{{item.cedula}}</td>
+                    <td>{{item.nombrePila}}</td>
+                    <td>{{item.primApellido}}</td>
+                    <td>{{item.sdoApellido}}</td>
+                    <td>{{item.sexo}}</td>
+                </tr>
+            </table>
+    </div>
+
